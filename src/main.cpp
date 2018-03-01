@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
 }
 
 #if 0
+
 while (nUnsignedPortId != 99)
 	{
 		printf("Enter the GPIO number:\n ");//as always ask the user for needed info
