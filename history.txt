@@ -1,0 +1,500 @@
+   16  cd ..
+   17  ls
+   18  cd bin
+   19  ls
+   20  cmake .
+   21  ls -l /usr/lib
+   22  /usr/lib
+   23  sudo make install
+   24  cd Build/
+   25  ls
+   26  ls -l
+   27  make install
+   28  cd ..
+   29  cmake .
+   30  cd Build/
+   31  make
+   32  make install
+   33  make install
+   34  ls ..
+   35  ls ..
+   36  make install
+   37  make install
+   38  make install
+   39  cd ../GPIO_Blink/
+   40  pwd
+   41  cmake .
+   42  cmake .
+   43  cmake .
+   44  cd Build
+   45  make install
+   46  ls
+   47  cd ..
+   48  ls
+   49  make install
+   50  history
+   51  cd ..
+   52  lls
+   53  ls
+   54  cd GPIO_Blink/
+   55  ls
+   56  cd Build
+   57  ls
+   58  ls -l
+   59  cd ..
+   60  cmake .
+   61  ls
+   62  ls Build
+   63  rm Build/libPJ_RPI.a 
+   64  ks
+   65  ls
+   66  cd Build
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd Build
+   71  ls
+   72  ls -l
+   73  make
+   74  cd .. && cmake .
+   75  cd Build
+   76  make
+   77  cd ..
+   78  cmake .
+   79  cd Build
+   80  make
+   81  cmake .
+   82  make
+   83  cmake .
+   84  make
+   85  cmake .
+   86  make
+   87  cmake .
+   88  make
+   89  cmake .
+   90  cd ..
+   91  cmake .
+   92  cmake .
+   93  cmake .
+   94  cd Build
+   95  make 
+   96  ls
+   97  ./GPIO_Blink 
+   98  cmake .
+   99  make 
+  100  ./GPIO_Blink 
+  101  sudo ./GPIO_Blink 
+  102  nano Desktop/linux_systems_programming/bin/src/RPIController.cpp
+  103  cd Desktop/linux_systems_programming/bin/src/
+  104  ls
+  105  nano RPIBridge.cpp
+  106  nano ../include/RPIBridge.h
+  107  cd Desktop/linux_systems_programming/bin/
+  108  ls -l
+  109  ls src
+  110  ls include
+  111  nano CMakeLists.txt 
+  112  ls
+  113  cd ..
+  114  ls
+  115  cd bin
+  116  ls
+  117  ls -l
+  118  ls -l src
+  119  nano src/main.cpp
+  120  ls
+  121  refresh
+  122  cd .
+  123  ls
+  124  ls src
+  125  ls src
+  126  cd GPIO_Blink/
+  127  ls
+  128  nano CMakeLists.txt 
+  129  nano src/main.cpp 
+  130  ./GPIO_Blink 
+  131  ./GPIO_Blink 
+  132  ./GPIO_Blink 
+  133  cd /home/pi/Desktop/linux_systems_programming/bin/
+  134  nano src/RPIBridge.cpp 
+  135  ls include/
+  136  cd GPIO_Blink/
+  137  ls
+  138  ls include/
+  139  cp include/RpiBridge.h include/RPIBridge.h
+  140  ls include/
+  141  rm include/RpiBridge.h 
+  142  nano src/RPIBridge.cpp 
+  143  ls src
+  144  nano src/RpiBridge.cpp 
+  145  make
+  146  ./GPIO_Blink 
+  147  make
+  148  cd ..
+  149  cmake .
+  150  cd Build
+  151  make install
+  152  make
+  153  cmake .
+  154  mskr
+  155  make
+  156  make
+  157  make
+  158  clear
+  159  make
+  160  make
+  161  make
+  162  make
+  163  make
+  164  ls
+  165  ./GPIO_Blink 
+  166  ./GPIO_Blink 
+  167  ./GPIO_Blink 
+  168  apt-get install sgrok
+  169  apt-get install ngrok
+  170  ifconfig
+  171  ipconfig
+  172            RX bytes:21430395 (20.4 MiB)  TX bytes:3833873 (3.6 MiB)
+  173  cat /etc/network/interfaces
+  174  ipconfig
+  175  ifconfig
+  176  netstat -nr
+  177  sudo nano /etc/network/interfaces
+  178  sudo rm /var/lib/dhcp/*
+  179  sudo reboot
+  180  GPIO_workspace 
+  181  cd Build/
+  182  ./GPIO_Blink 
+  183  GPIO_workspace 
+  184  nano ../include/rpi_definitions.h 
+  185  nano ../include/RpiCommands.h 
+  186  nano ../include/RpiCommands.h 
+  187  ifconfig
+  188  history
+  189  ls /var/lib/dhcp/
+  190  ls
+  191  nano  /etc/ssh/sshd_config
+  192   /etc/init.d/ssh restart
+  193  ifconfig
+  194  ifconfig
+  195  /etc/network/interfaces
+  196  nano /etc/network/interfaces
+  197  ifconfig
+  198  ifconfig
+  199  ifconfig
+  200  ifconfig
+  201  ifconfig
+  202  ifconfig
+  203  ifconfig
+  204  ifconfig
+  205  nano /etc/network/interfaces
+  206  nano /etc/network/interfaces
+  207  ifconfig
+  208  nano  /etc/ssh/sshd_config
+  209   /etc/init.d/ssh restart
+  210  nano ~/.bashrc
+  211  GPIO_workspace
+  212  nano ~/.bashrc
+  213  source ~/.bashrc
+  214  GPIO_workspace
+  215  nano ~/.bashrc
+  216  source ~/.bashrc
+  217  GPIO_workspace
+  218  nano ~/.bashrc
+  219  source ~/.bashrc
+  220  GPIO_workspace
+  221  nano ~/.bashrc
+  222  source ~/.bashrc
+  223  nano src/RpiBridge.cpp
+  224  GPIO_workspace 
+  225  cmake .
+  226  make
+  227  make
+  228  cmake .
+  229  make
+  230  make
+  231  cmake .
+  232  make
+  233  cmak e.
+  234  cmake .
+  235  make
+  236  ./GPIO_Blink 
+  237  cmake .
+  238  make
+  239  ./GPIO_Blink 
+  240  cmake .
+  241  make
+  242  ./GPIO_Blink 
+  243  cmake .
+  244  make
+  245  ./GPIO_Blink 
+  246  cmake .
+  247  make
+  248  ./GPIO_Blink 
+  249  cmake .
+  250  make
+  251  ./GPIO_Blink 
+  252  ./GPIO_Blink 1
+  253  cmake .
+  254  make
+  255  ./GPIO_Blink 1
+  256  cmake .
+  257  make
+  258  ./GPIO_Blink 1
+  259  ./GPIO_Blink 17
+  260  ./GPIO_Blink 17
+  261  ./GPIO_Blink 17
+  262  cmake .
+  263  make
+  264  ./GPIO_Blink 17
+  265  cmake . && make 
+  266  cmake . && make 
+  267  make
+  268  cmake . && make && ./GPIO_Blink 17
+  269  cmake . && make && ./GPIO_Blink 19
+  270  cmake . && make && ./GPIO_Blink 19
+  271  cmake . && make && ./GPIO_Blink 19
+  272  exit
+  273  GPIO_workspace 
+  274  nano ../include/RpiBridge.h 
+  275  nano ../include/rpi_definitions.h 
+  276  nano ../src/main.cpp 
+  277  exit
+  278  GPIO_workspace
+  279  nano ../src/RpiBridge.cpp
+  280  cmake .
+  281  make
+  282  nano ../src/RpiBridge.cpp
+  283  nano ../include/RpiBridge.h
+  284  cmake .
+  285  make
+  286  nano ../include/RpiBridge.h
+  287  cmake .
+  288  make
+  289  nano ../include/RpiBridge.h
+  290  cmake .
+  291  make
+  292  cmake .
+  293  make
+  294  nano ../include/RpiBridge.h
+  295  nano ../src/RpiBridge.cpp
+  296  nano ../include/RpiBridge.h
+  297  nano ../include/RpiCommands.h 
+  298  nano ../include/RpiBridge.h
+  299  nano ../src/RpiBridge.cpp
+  300  nano ../src/RpiBridge.cpp
+  301  exit
+  302  GPIO_workspace 
+  303  ./GPIO_Blink 
+  304  GPIO_workspace 
+  305  cmake .
+  306  make 
+  307  ./GPIO_Blink 
+  308  ntv radyo
+  309  make 
+  310  cmake .
+  311  nano ../include/RpiBridge.h 
+  312  cmake .
+  313  make 
+  314  cmake .
+  315  make 
+  316  make clean
+  317  cmake clean
+  318  cmake .
+  319  make
+  320  make
+  321  cmake .
+  322  make
+  323  ./GPIO_Blink 0x00000001
+  324  ./GPIO_Blink 
+  325  cmake .
+  326  make
+  327  ./GPIO_Blink 
+  328  cmake .
+  329  make
+  330  ./GPIO_Blink 
+  331  jjessras77 lot425alib2askadafruit raspberry pi
+  332  cd ../..
+  333  mkdir cpp_fundamentals
+  334  cd cpp_fundamentals/
+  335  mkdir src include
+  336  cp /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/CMakeLists.txt /home/pi/Desktop/linux_systems_programming/bin/cpp_fundamentals
+  337  rm CMakeLists.txt 
+  338  GPIO_workspace 
+  339  nano ../src/RpiBridge.cpp
+  340  nano ../include/RpiCommands.h 
+  341  nano ../include/rpi_definitions.h 
+  342  sudo apt-get install -y build-essential bison flex automake libelf-dev libusb-1.0-0-dev libusb-dev libftdi-dev libftdi1
+  343  wget http://download.savannah.gnu.org/releases/avrdude/avrdude-6.1.tar.gz
+  344  tar xvfz avrdude-6.1.tar.gz
+  345  cd avrdude-6.1
+  346  ./configure --enable-linuxgpio
+  347  make
+  348  sudo make install
+  349  avrdude 
+  350  sudo make install
+  351  GPIO_workspace 
+  352  cd ..
+  353  ls
+  354  ls
+  355  cd ..
+  356  ls
+  357  avrdude 
+  358  cp /etc/avrdude.conf ~/avrdude_gpio.conf
+  359  nano ~/avrdude_gpio.conf
+  360  avr-gcc
+  361  sudo apt-get install avr-libc avrdude binutils-avr
+  362  avr-gcc
+  363  chmod 777 -r cpp_fundamentals/
+  364  chmod 777 cpp_fundamentals/
+  365  chmod 777 cpp_fundamentals/include/
+  366  chmod 777 cpp_fundamentals/src/
+  367  cd GPIO_Blink/
+  368  cd Build/
+  369  make
+  370  ls -l
+  371  cd CMakeFiles/
+  372  ls
+  373  mamp CMakeOutput.log 
+  374  nano CMakeOutput.log 
+  375  sudo apt-install geany-plugins
+  376  apt-install geany-plugins
+  377  apt install geany-plugins
+  378  apt-get install geany-plugins
+  379  cd /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink
+  380  cd G
+  381  cd Build/
+  382  gdb GPIO_Blink 
+  383  gdb GPIO_Blink 
+  384  gdb GPIO_Blink 
+  385  make
+  386  gdb GPIO_Blink 
+  387  apt-get install gdb
+  388  gdb GPIO_Blink 
+  389  gdb GPIO_Blink 
+  390  gbd clean
+  391  gdb GPIO_Blink 
+  392  ek-tm4c123GXL
+  393  cd /home/pi/Desktop/linux_systems_programming/bin/cpp_fundamentals/cpp_rpi
+  394  mkdir Build
+  395  cd Build/
+  396  cmake .
+  397  cd ..
+  398  cmake .
+  399  nano src/main.cpp 
+  400  cmake .
+  401  make
+  402  nano CMake
+  403  nano CMakeLists.txt 
+  404  cmake .
+  405  make
+  406  cmake .
+  407  make 
+  408  ls
+  409  cd Build/
+  410  ls
+  411  ls -l
+  412  make clean
+  413  cmake clean
+  414  clean
+  415  cd ..
+  416  rm -rf CMakeFiles/
+  417  cd Build/
+  418  cmake .
+  419  cmake 
+  420  make 
+  421  make .
+  422  cd ..
+  423  cmake .
+  424  cmake .
+  425  make
+  426  nano src/main.cpp 
+  427  ./IntroToCpp 
+  428  gdb IntroToCpp 
+  429  gdb ./IntroToCpp 
+  430  cmake .
+  431  make 
+  432  gdb IntroToCpp 
+  433  cmake .
+  434  make
+  435  ./IntroToCpp 
+  436  ls
+  437  cmake clean
+  438  make clean
+  439  cmake .
+  440  make
+  441  cmake .
+  442  make 
+  443  ./IntroToCpp 
+  444  cmake .
+  445  make
+  446  cmake .
+  447  make
+  448  make
+  449  cmake. 
+  450  cmake .  
+  451  make
+  452  cmake .  
+  453  make
+  454  make
+  455  make
+  456  ./IntroToCpp 
+  457  cmake .
+  458  make
+  459  ./IntroToCpp 
+  460  cmake .
+  461  make
+  462  make clean
+  463  make
+  464  make
+  465  ./IntroToCpp 
+  466  make
+  467  gdb ./IntroToCpp 
+  468  avr-gcc
+  469  avr-gcc -v
+  470  GPIO_workspace 
+  471  ls
+  472  alias
+  473  IntroToCpp 
+  474  cd ..
+  475  cd ..
+  476  mkdir avrPlayground
+  477  cd avrPlayground/
+  478  nano IncFile1.h
+  479  nano main.c
+  480  nano main.c
+  481  nano main.c
+  482  sudo avrdude -p atmega328p -C ~/avrdude_gpio.conf -c pi_1 -v
+  483  programmer type linuxspi not found
+  484  nano ~/avrdude_gpio.conf
+  485  sudo avrdude -p atmega328p -C ~/avrdude_gpio.conf -c pi_1 -v
+  486  nano ~/avrdude_gpio.conf
+  487  spidev
+  488  sudo raspi-config
+  489  sudo raspi-config
+  490  reboot
+  491  GPIO_workspace 
+  492  cd ..
+  493  cd ..
+  494  cd cpp_fundamentals/
+  495  l
+  496  ls
+  497  cd cpp_rpi
+  498  ls
+  499  nano include/status.h 
+  500  ls
+  501  GPIO_workspace 
+  502  cd ..
+  503  cd ..
+  504  ls
+  505  cd ..
+  506  cd ..
+  507  mkdir C_Programming
+  508  cd C_Programming/
+  509  GPIO_workspace 
+  510  cd ..
+  511  ls
+  512  nano main.cpp 
+  513  nano main.cpp 
+  514  history
+  515  history > history.txt

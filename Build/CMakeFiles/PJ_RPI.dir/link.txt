@@ -1,0 +1,2 @@
+/usr/bin/ar cr libPJ_RPI.a  CMakeFiles/PJ_RPI.dir/home/pi/Desktop/PI_PJ/PJ_RPI/PJ_RPI.c.o
+/usr/bin/ranlib libPJ_RPI.a
