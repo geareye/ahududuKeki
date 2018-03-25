@@ -38,6 +38,8 @@ class RpiBridge
 		int SetGpioValue(unsigned nPortId, unsigned nPortValue);
 		int GetGpioValue(unsigned nPortId, unsigned *pnPortValue);
 
+		unsigned int SpiBegin();
+		
 	protected:
 
 	private:

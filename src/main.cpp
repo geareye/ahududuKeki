@@ -15,6 +15,9 @@ int main(int argc, char *argv[])
   	string sName = "test";
 	RpiBridge rpiBridge(nPortId, nSerialNum, sName);
 
+	int spiResp=0;
+	spiResp = rpiBridge.SpiBegin();
+	
 	unsigned nCommandInput;
 	//nUnsignedPortId = (unsigned) atoi(argv[1]);
 

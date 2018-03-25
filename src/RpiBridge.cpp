@@ -11,6 +11,14 @@ RpiBridge::~RpiBridge()
 {
 }
 
+unsigned int RpiBridge::SpiBegin()
+{
+	if (!bcm2835_init())
+		return -1;
+	bcm2835_spi_begin();
+	
+	return 1;
+}
 //struct bcm2835_peripheral gpio = {GPIO_BASE};
 //struct bcm2835_peripheral bsc0 = {BSC0_BASE};
 
