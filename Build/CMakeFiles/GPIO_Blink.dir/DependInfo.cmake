@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp" "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build/CMakeFiles/GPIO_Blink.dir/src/RpiBridge.cpp.o"
-  "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp" "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build/CMakeFiles/GPIO_Blink.dir/src/main.cpp.o"
+  "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp" "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build/CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.o"
+  "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp" "/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build/CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,6 +16,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
+  "/usr/local/lib"
+  "../../bcm2835library/bcm2835-1.40/src"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

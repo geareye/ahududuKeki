@@ -39,7 +39,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink
+CMAKE_SOURCE_DIR = /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build
@@ -111,53 +111,53 @@ GPIO_Blink/fast:
 	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/build
 .PHONY : GPIO_Blink/fast
 
-src/RpiBridge.o: src/RpiBridge.cpp.o
-.PHONY : src/RpiBridge.o
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.o: home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.o
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.o
 
 # target to build an object file
-src/RpiBridge.cpp.o:
-	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/src/RpiBridge.cpp.o
-.PHONY : src/RpiBridge.cpp.o
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.o:
+	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.o
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.o
 
-src/RpiBridge.i: src/RpiBridge.cpp.i
-.PHONY : src/RpiBridge.i
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.i: home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.i
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.i
 
 # target to preprocess a source file
-src/RpiBridge.cpp.i:
-	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/src/RpiBridge.cpp.i
-.PHONY : src/RpiBridge.cpp.i
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.i:
+	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.i
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.i
 
-src/RpiBridge.s: src/RpiBridge.cpp.s
-.PHONY : src/RpiBridge.s
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.s: home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.s
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.s
 
 # target to generate assembly for a file
-src/RpiBridge.cpp.s:
-	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/src/RpiBridge.cpp.s
-.PHONY : src/RpiBridge.cpp.s
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.s:
+	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.s
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.o: home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.o
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.o
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.i: home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.i
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.i
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.s: home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.s
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/GPIO_Blink.dir/build.make CMakeFiles/GPIO_Blink.dir/home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.s
+.PHONY : home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.cpp.s
 
 # Help Target
 help:
@@ -168,12 +168,12 @@ help:
 	@echo "... GPIO_Blink"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... src/RpiBridge.o"
-	@echo "... src/RpiBridge.i"
-	@echo "... src/RpiBridge.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.o"
+	@echo "... home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.i"
+	@echo "... home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/RpiBridge.s"
+	@echo "... home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.o"
+	@echo "... home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.i"
+	@echo "... home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/src/main.s"
 .PHONY : help
 
 

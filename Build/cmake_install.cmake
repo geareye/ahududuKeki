@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink
+# Install script for directory: /home/pi/Desktop/linux_systems_programming/bin/GPIO_Blink/Build
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
