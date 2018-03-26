@@ -71,7 +71,8 @@ int main(int argc, char *argv[])
 	
 	int m=0;
 	int l=0;
-	while (1)
+	spiResp = 1;
+	while (spiResp)
 	{
 		spiResp = spiTest.TransferToSpi(pDacData, m++ % 36);
 	}
