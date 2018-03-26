@@ -15,16 +15,7 @@ int main(int argc, char *argv[])
 	unsigned nPortValue;
   	string sName = "test";
 	
-	unsigned short config[] = 
-	{
-		GPIOCONFIG,
-		ADCCONFIG,
-		DACCONFIG,
-		GPCONFIG,
-		ADCCSEQUENCE,
-	};
-	char spiOut[2];
-	char spiIn[2];
+
 	unsigned short dacData[36] = 
 	{
 		0xDEAD,
@@ -65,6 +56,7 @@ int main(int argc, char *argv[])
 		0xDEAD,		
 	}
 	
+	unsigned short * pDacData = &dacData[0];
 	
 	SpiTest spiTest(nPortId, nSerialNum, sName);
 
@@ -76,25 +68,14 @@ int main(int argc, char *argv[])
 
 	Status s = Pending;
 	s = Approved;
-
 	
-	
-	
-	while (nCommandInput != RETURN_FAILURE)
+	int m=0;
+	int l=0;
+	while (1)
 	{
-		printf("Enter the command:\n ");//as always ask the user for needed info
-		scanf("%x",&nCommandInput);
-		cout << "supplied : " << nCommandInput << endl;
-
-		//currently the way called is bad, it could rely on member variable initialized during class calling
-		if (nCommandInput == PIN_VALUE_OFF)
-			rpiBridge.SetGpioValue(nPortId, PIN_VALUE_OFF);
-		if (nCommandInput == PIN_VALUE_ON)
-			rpiBridge.SetGpioValue(nPortId, PIN_VALUE_ON);
+		spiResp = spiTest.TransferToSpi(pDacData, m++ % 36);
 	}
-
-
-//	rpiBridge.BlinkPort(nDelayInSeconds);
+	
 
 	return 0;
 }

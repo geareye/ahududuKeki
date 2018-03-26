@@ -66,6 +66,8 @@ unsigned int SpiTest::TransferToSpi(unsigned short * pDacData, int nIndex)
 	spiOut[0] = pDacData[nIndex] >> 8;
 	spiOut[1] = pDacData[nIndex] & 0x0FF;
 	bcm2835_spi_transfernb(spiOut, spiIn, WORDSIZE);
+	
+	return 1;
 } 
 
 
